@@ -170,7 +170,7 @@
 					navbar = $('.ftco_navbar'),
 					sd = $('.js-scroll-wrap');
 
-			if (st > 150) {
+				if (st > 150) {
 				if ( !navbar.hasClass('scrolled') ) {
 					navbar.addClass('scrolled');	
 				}
@@ -306,7 +306,7 @@
 
 	function makeTimer() {
 
-		var endTime = new Date("18 September 2020 11:00:00 GMT+01:00");			
+		var endTime = new Date("18 September 2020 14:00:00 GMT+01:00");			
 		endTime = (Date.parse(endTime) / 1000);
 
 		var now = new Date();
